@@ -20,14 +20,23 @@ main {
 body {
     background: transparent url(../imagens/fundo-madeira.jpg) center top/cover no-repeat;
 }
-#telefone {
+section#telefone {
     position: absolute;
     left: 50%;
     top: 50%;
+
     height: 627px;
     width: 311px;
 
     transform: translate(-50%,-50%);
     background: transparent url(../imagens/frame-iphone.png) center/contain no-repeat fixed;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 468px;
+    width: 264px;
 }
 
